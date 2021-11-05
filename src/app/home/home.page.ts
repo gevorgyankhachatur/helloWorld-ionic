@@ -21,7 +21,7 @@ export class HomePage {
   showAlert() {
     this.alertController
       .create({
-        message: `Hello ${this.name}`,
+        message: `Hello ${this.name} from WorkMovr`,
         buttons: ['Thank you'],
       })
       .then((res) => {
