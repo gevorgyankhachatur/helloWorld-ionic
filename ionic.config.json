@@ -1,7 +1,10 @@
 {
   "name": "helloWorld",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {
+      "enabled": false
+    },
+    "cordova": {}
   },
   "type": "angular"
 }
