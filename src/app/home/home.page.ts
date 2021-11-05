@@ -7,7 +7,7 @@ import { AlertController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  name: string | undefined;
+  name: string = 'Anonyumous';
 
   constructor(public alertController: AlertController) {}
 
@@ -18,8 +18,6 @@ export class HomePage {
   showAlert() {
     this.alertController
       .create({
-        //header: '',
-        //subHeader: '',
         message: `Hello ${this.name}`,
         buttons: ['Thank you'],
       })
