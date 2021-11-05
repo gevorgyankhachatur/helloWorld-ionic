@@ -13,6 +13,9 @@ export class HomePage {
 
   onInput(event?: any) {
     this.name = event.target.value;
+    if (this.name === '') {
+      this.name = 'Anonymous';
+    }
   }
 
   showAlert() {
