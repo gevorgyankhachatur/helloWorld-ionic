@@ -1,5 +1,5 @@
 {
-  "name": "helloWorld",
+  "name": "helloFromWorkMovr",
   "integrations": {
     "capacitor": {
       "enabled": false
